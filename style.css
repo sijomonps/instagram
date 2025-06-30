@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+/*Slide Menu*/
+
+.side-bar{
+    margin: 30px;
+    position: fixed;
+
+}
+.main-logo-image{
+    height: 50px;
+    
+}
+.menu-items{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    font-size: 10px;
+    margin-top: 30px;
+    
+}
+.menu-home{
+    font-weight: 200;
+    
+}
+
+.home-icon{
+    height: 28px;
+    position: relative;
+    top: 6;
+    margin-right: 10px;
+}
+.flex{
+    border-radius: 6px;
+    display: flex;
+    width: 200px;
+    animation-name: side-menu-hower;
+    animation-duration: 2s;
+    
+}
+.flex:hower{
+    background-color: grey;
+}
