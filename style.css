@@ -6,12 +6,12 @@ body{
 /*Slide Menu*/
 
 .side-bar{
-    margin: 30px;
+    margin: 15px;
     position: fixed;
-
+    margin-top: 30px;
 }
 .main-logo-image{
-    height: 50px;
+    height: 40px;
     
 }
 .menu-items{
@@ -31,17 +31,19 @@ body{
 .home-icon{
     height: 28px;
     position: relative;
-    top: 6;
     margin-right: 10px;
 }
+
 .flex{
+    height: 25px;
     border-radius: 6px;
     display: flex;
+    align-items: center;
     width: 200px;
-    animation-name: side-menu-hower;
     animation-duration: 2s;
-    
+    transition: .5s;
+    padding: 10px;
 }
-.flex:hower{
-    background-color: grey;
+.flex:hover{
+    background-color: rgb(34, 34, 34);
 }
