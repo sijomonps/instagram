@@ -68,6 +68,7 @@ body{
     display: flex;
     flex-direction: column;
     
+    
 }
 .storys{
     
@@ -226,18 +227,25 @@ body{
     height: 100vh;
     width: 100vh;
     left: 56%;
-   
 }
 /*post 1*/
+
 .post-header1{
     display: flex;
+    position: relative;
+    top: 20vh;
+    height: 10px;
+    
+}
+.main-post-img1{
+    
 }
 .post1-profile-img{
-    position: absolute;
-    height: 5%;
+    position: relative;
+    height: 5vh;
     border-radius: 50%;
-    top: 20%;
-    left: 20%;
+    top: 2vh;
+    left: 20vh;
     
 }
 .post-id{
@@ -246,12 +254,82 @@ body{
     font-size: 12px;
     left: 26%;
 }
+.audio-name-p{
+    position: absolute;
+    top: 3vh;
+    left: 26%;
+    font-size: 10px;
+}
+.threedots{
+    position: absolute;
+    font-size: 20px;
+    top: 20%;
+    left: 75%;
+}
 .post1-img{
     position: relative;
     display: flex;
-    height: 70vh;
+    height: 75vh;
     width: 27vw;
     object-fit: cover;
     top: 27vh;
     left: 20%;
+    
+}
+
+.reactions1{
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+.reaction1{
+    position: relative;
+    height: 3.5vh;
+    top: 28vh;
+    left: 20vh;
+}
+.save1{
+    position: relative;
+    height: 3.5vh;
+    top: 28vh;
+    left: 58vh;
+    
+}
+.like-count{
+    position: relative;
+    font-size: 12px;
+    top: 28vh;
+    left: 21vh;
+    margin-top: 10px;
+}
+.caption1{
+    position: relative;
+    font-size: 13px;
+    top: 28vh;
+    left: 21vh;
+    margin-top: 10px;
+}
+.caption-main{
+    position: relative;
+    font-size: 13px;
+    top: 23.5vh;
+    left: 28.5vh;
+    margin-top: 10px;
+}
+.vew-comments{
+    position: relative;
+    font-size: 13px;
+    top: 23vh;
+    left: 21vh;
+    margin-top: 10px;
+    color: grey;
+}
+.add-comment{
+    position: relative;
+    font-size: 13px;
+    top: 23vh;
+    left: 21vh;
+    margin-top: 10px;
+    color: grey;
+    margin-bottom: 50px;
 }
